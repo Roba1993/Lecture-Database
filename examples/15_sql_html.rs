@@ -35,7 +35,7 @@ async fn filter(filter: web::Form<Filter>, pool: web::Data<Pool<Postgres>>) -> i
     let users: Vec<User> = res.iter().map(|row| User::from_row(&row)).collect();
 
     IndexTemplate {
-        name: filter.filter.clone(),
+        filter: filter.filter.clone(),
         users,
     }
 }
@@ -50,7 +50,7 @@ async fn home(pool: web::Data<Pool<Postgres>>) -> impl Responder {
     let users: Vec<User> = res.iter().map(|row| User::from_row(&row)).collect();
 
     IndexTemplate {
-        name: "Superuser".into(),
+        filter: "".into(),
         users,
     }
 }
@@ -63,7 +63,7 @@ struct Filter {
 #[derive(askama_actix::Template)]
 #[template(path = "15_index.html")]
 struct IndexTemplate {
-    name: String,
+    filter: String,
     users: Vec<User>,
 }
 
