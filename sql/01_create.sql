@@ -6,3 +6,6 @@ CREATE TABLE users (
     age INTEGER,
     student BOOLEAN
 );
+
+/* View table schema */
+\d users

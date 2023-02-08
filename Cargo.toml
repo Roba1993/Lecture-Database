@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+fake = "2.5"
+rand = "0.8"
 actix-web = "4"
 askama_actix = "0.13.0"
 askama = "0.11.1"
