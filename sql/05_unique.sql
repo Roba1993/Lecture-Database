@@ -8,6 +8,5 @@ CREATE TABLE users (
     UNIQUE(firstname, lastname, age)
 );
 
-/* Add uuniqness later to a coloumn */
+/* Add uniqness later to a coloumn */
 ALTER TABLE users ADD UNIQUE (firstname, lastname, age);
-
