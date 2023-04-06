@@ -1,6 +1,6 @@
 ## update and install some things we should probably have
 apt-get update
-DEBIAN_FRONTEND=noninteractive apt-get install -y \
+apt-get install -y \
   curl \
   git \
   gnupg2 \
@@ -9,12 +9,10 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
   zsh \
   vim \
   build-essential \
-  openssl \
-  postgresql \
-  postgresql-contrib
+  openssl 
 
-systemctl start postgresql.service
-sudo -i -u postgres
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends postgresql-client
 
 ## Install rustup and common components
 curl https://sh.rustup.rs -sSf | sh -s -- -y 
