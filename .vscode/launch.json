@@ -1,0 +1,1118 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'dbm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=dbm",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "dbm",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'dbm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=dbm",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "dbm",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '11_server'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=11_server",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "11_server",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '11_server'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=11_server",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "11_server",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '03_for_if'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=03_for_if",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for_if",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '03_for_if'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=03_for_if",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for_if",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '05_var_i8'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=05_var_i8",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_i8",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '05_var_i8'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=05_var_i8",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_i8",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '03_for'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=03_for",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '03_for'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=03_for",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '04_fn_for'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=04_fn_for",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn_for",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '04_fn_for'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=04_fn_for",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn_for",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '15_sql_html'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=15_sql_html",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "15_sql_html",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '15_sql_html'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=15_sql_html",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "15_sql_html",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '05_var_u64'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=05_var_u64",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_u64",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '05_var_u64'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=05_var_u64",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_u64",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '13_sql'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=13_sql",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "13_sql",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '13_sql'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=13_sql",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "13_sql",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '14_sql_struct'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=14_sql_struct",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "14_sql_struct",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '14_sql_struct'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=14_sql_struct",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "14_sql_struct",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '07_fn_add'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=07_fn_add",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "07_fn_add",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '07_fn_add'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=07_fn_add",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "07_fn_add",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '04_fn'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=04_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '04_fn'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=04_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '09_struct_fn'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=09_struct_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "09_struct_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '09_struct_fn'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=09_struct_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "09_struct_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '16_sql_insert'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=16_sql_insert",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "16_sql_insert",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '16_sql_insert'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=16_sql_insert",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "16_sql_insert",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '04_fn_fn'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=04_fn_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '04_fn_fn'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=04_fn_fn",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "04_fn_fn",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '06_fn_para'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=06_fn_para",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "06_fn_para",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '06_fn_para'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=06_fn_para",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "06_fn_para",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '05_var_char'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=05_var_char",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_char",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '05_var_char'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=05_var_char",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_char",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '10_struct_vec'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=10_struct_vec",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "10_struct_vec",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '10_struct_vec'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=10_struct_vec",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "10_struct_vec",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '03_for_2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=03_for_2",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for_2",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '03_for_2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=03_for_2",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "03_for_2",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '06_fn_para_club'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=06_fn_para_club",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "06_fn_para_club",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '06_fn_para_club'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=06_fn_para_club",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "06_fn_para_club",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_server_html'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_server_html",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "12_server_html",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_server_html'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_server_html",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "12_server_html",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '08_struct'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=08_struct",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "08_struct",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '08_struct'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=08_struct",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "08_struct",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '07_fn_mut_speed'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=07_fn_mut_speed",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "07_fn_mut_speed",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '07_fn_mut_speed'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=07_fn_mut_speed",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "07_fn_mut_speed",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '17_sql_transaction'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=17_sql_transaction",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "17_sql_transaction",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '17_sql_transaction'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=17_sql_transaction",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "17_sql_transaction",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '02_if_complex'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=02_if_complex",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if_complex",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '02_if_complex'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=02_if_complex",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if_complex",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '08_struct_addr'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=08_struct_addr",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "08_struct_addr",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '08_struct_addr'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=08_struct_addr",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "08_struct_addr",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '02_if'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=02_if",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '02_if'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=02_if",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '02_if_task'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=02_if_task",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if_task",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '02_if_task'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=02_if_task",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "02_if_task",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '01_var_simple'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=01_var_simple",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "01_var_simple",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '01_var_simple'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=01_var_simple",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "01_var_simple",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '05_var_u8'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=05_var_u8",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_u8",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '05_var_u8'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=05_var_u8",
+                    "--package=dbm"
+                ],
+                "filter": {
+                    "name": "05_var_u8",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
