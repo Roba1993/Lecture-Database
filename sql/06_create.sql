@@ -41,6 +41,16 @@ INSERT INTO users
 VALUES
 ('Flo', 'Hamer', now(), true);
 
+INSERT INTO users 
+(firstname, lastname, birthday, student) 
+VALUES
+('Robert', 'SChütte', now(), false);
+
+INSERT INTO users 
+(firstname, lastname, birthday, student) 
+VALUES
+('Beate', 'Kluge', now(), false);
+
 INSERT INTO lecture 
 (name) 
 VALUES

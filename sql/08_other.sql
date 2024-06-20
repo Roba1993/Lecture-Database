@@ -1,4 +1,4 @@
-SELECT DISTINCT users FROM firstname;
+SELECT DISTINCT firstname FROM user;
 
 SELECT * FROM users ORDER BY firstname DESC;
 
